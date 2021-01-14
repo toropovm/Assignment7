@@ -1,38 +1,63 @@
-.App {
-  text-align: center;
+.title{
+  color: #111; 
+  font-family: 'Helvetica Neue', sans-serif; 
+  font-size: 175px; 
+  font-weight: bold; 
+  letter-spacing: -1px; 
+  line-height: 1; 
+  text-align: center; 
+  background-color: rgb(207, 204, 19);
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.TRbuttons{
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  background-color: #6f1c72; /* Green */
+  border: none;
   color: white;
+  padding: 30px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
 }
 
-.App-link {
-  color: #61dafb;
+.buttons{
+  display: flex;
+  justify-content: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.ESbuttons{
+  display: flex;
+  justify-content: center;
+  background-color: #6f1c72; /* Green */
+  border: none;
+  color: white;
+  padding: 30px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  background-color: #404597; /* Green */
+}
+
+.gifText{
+  display: grid;
+  place-content: center;
+  height: 5vh;
+  background: $color;
+  font-family: 'Red Hat Display', sans-serif;
+  color: #fefefe;
+}
+
+.card{
+  display: grid;
+  place-content: center;
+}
+
+.everything{
+  background-color: yellow;
 }

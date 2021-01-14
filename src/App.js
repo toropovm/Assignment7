@@ -1,25 +1,23 @@
-import logo from './logo.svg';
+import React, { Component } from 'react';
+import GifCard from './Components/GifCard';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+class App extends Component {
+  render(){
+    return (
+      <div>
+      <div> <h1  className = "title">GIPHY SEARCH</h1></div>
+      <div className="container">
+        <div>
+        <GifCard/>
+        </div>
+      </div>
+      
+      </div>
+    );
+  }
 }
+
 
 export default App;
